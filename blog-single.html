@@ -1,397 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>DevFolio Bootstrap Portfolio Template - Blog Single</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>DevFolio Bootstrap Portfolio Template - Blog Single</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html">SamWare</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-  <!-- =======================================================
-  * Template Name: DevFolio
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="/">Home</a></li>
+            <li><a class="nav-link scrollto" href="/">About</a></li>
+            <li><a class="nav-link scrollto" href="/">Services</a></li>
+            <li><a class="nav-link scrollto" href="/">Work</a></li>
+            <li><a class="nav-link scrollto" href="/">Blog</a></li>
 
-<body>
+            <li><a class="nav-link scrollto" href="/">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
+    <div
+      class="hero hero-single route bg-image"
+      style="background-image: url(assets/img/overlay-bg.jpg)"
+    >
+      <div class="overlay-mf"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <h2 class="hero-title mb-4">Blog</h2>
+            <ol class="breadcrumb d-flex justify-content-center">
+              <li class="breadcrumb-item">
+                <a href="/">Home</a>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h2 class="hero-title mb-4">Blog Details</h2>
-          <ol class="breadcrumb d-flex justify-content-center">
-            <li class="breadcrumb-item">
-              <a href="#">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="#">Library</a>
-            </li>
-            <li class="breadcrumb-item active">Data</li>
-          </ol>
+              <li class="breadcrumb-item">
+                <a href="/">Library</a>
+              </li>
+              <li class="breadcrumb-item active">Blog</li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <main id="main">
+    <main id="main">
+      <!-- ======= Blog Single Section ======= -->
+      <section class="blog-wrapper sect-pt4" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="post-box">
+                <div class="post-thumb">
+                  <img
+                    src="assets/img/5-Ways-by-which-Mobile-Technology-has-Revolutionized-the-Modern-Education-System.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="post-meta">
+                  <h1 class="article-title">
+                    How Apps Are Revolutionizing Learning
+                  </h1>
+                  <ul>
+                    <li>
+                      <span class="bi bi-person"></span>
+                      <a href="#">Samuel Dushime</a>
+                    </li>
+                    <li>
+                      <span class="bi bi-tag"></span>
+                      <a href="#">Educationn</a>
+                    </li>
+                    <li>
+                      <span class="bi bi-chat-left-text"></span>
+                      <a href="#">14</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="article-content">
+                  <p>
+                    Education is transforming significantly in today's rapidly
+                    advancing digital era. Traditional classrooms are being
+                    augmented and sometimes even replaced by innovative
+                    technologies revolutionising the learning experience. One
+                    such technology that has emerged as a powerful tool in
+                    education is mobile applications or apps. These apps can
+                    potentially reshape the future of education by providing
+                    personalised, interactive, and accessible learning
+                    opportunities for students of all ages. In this article, we
+                    will explore how apps are revolutionising learning and
+                    shaping the future of education.
+                  </p>
+                  <img
+                    src="./assets/img/blog-personalized-learning-achieve-classroom.png"
+                    class="w-75"
+                    alt=""
+                  />
+                  <p>
+                    The main advantage of educational apps is their ability to
+                    provide a personalised learning experience. Unlike
+                    traditional classroom settings, where instruction is often
+                    standardised, apps can adapt to each student’s needs and
+                    learning style. With the help of artificial intelligence and
+                    machine learning algorithms, apps can analyse student
+                    performance, track progress, and provide targeted feedback
+                    and suggestions This personalised approach allows students
+                    to learn at their own pace, focusing on areas that need
+                    improvement and accelerating their learning in internal
+                    areas of strength.
+                  </p>
+                  <img
+                    src="./assets/img/5th-period-Kahooting.jpg"
+                    class="w-75"
+                    alt=""
+                  />
+                  <p>
+                    Apps offer an interactive and engaging learning environment
+                    that goes beyond static textbooks. They incorporate
+                    multimedia elements such as videos, animations, games, and
+                    simulations to make learning more immersive and enjoyable.
+                    Interactive quizzes, puzzles, and challenges within apps can
+                    motivate students and foster their critical thinking and
+                    problem-solving skills. By integrating gamification
+                    elements, apps can transform education into a fun and
+                    rewarding experience, keeping students actively engaged and
+                    motivated to learn
+                  </p>
+                  <img
+                    src="./assets/img/Elearning-1536x923.jpg"
+                    class="w-75"
+                    alt=""
+                  />
+                  <p>
+                    One of the most significant advantages of educational apps
+                    is their ability to provide accessible learning
+                    opportunities to students worldwide. With the widespread
+                    availability of smartphones and tablets, educational apps
+                    can reach students in remote areas or underserved
+                    communities who may lack access to quality education. These
+                    apps can bridge the educational divide by delivering
+                    educational content, resources, and even virtual classrooms
+                    to students anywhere, anytime. Furthermore, apps can support
+                    inclusive education by accommodating students with special
+                    needs, offering customisable features and assistive
+                    technologies.
+                  </p>
+                  <img
+                    src="./assets/img/Collaborative-Learning.jpg"
+                    class="w-75"
+                    alt=""
+                  />
 
-    <!-- ======= Blog Single Section ======= -->
-    <section class="blog-wrapper sect-pt4" id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="post-box">
-              <div class="post-thumb">
-                <img src="assets/img/post-1.jpg" class="img-fluid" alt="">
+                  <p>
+                    Apps are not limited to individual learning but foster
+                    student collaboration and communication. Many educational
+                    apps provide features for group projects, virtual
+                    discussions, and shared learning spaces. Students can
+                    collaborate with their peers, exchange ideas, and work
+                    together on assignments or projects, regardless of their
+                    physical location. This collaborative learning approach
+                    promotes teamwork, communication skills, and a sense of
+                    community, preparing students for the interconnected world
+                    they will encounter in their future careers.
+                  </p>
+                  <img
+                    class="w-75"
+                    src="./assets/img/continious-learning.png"
+                    alt=""
+                  />
+                  <p>
+                    Though courses end and diplomas are awarded, true education
+                    has no finish line. Because continuous learning and lifelong
+                    learning are critical to the future of education, apps are
+                    critical in facilitating their implementation. Education
+                    apps give resourceful people the means by which to increase
+                    their knowledge and acquire previously unacquired skills by
+                    simplifying access to a variety of online educational tools
+                    and resources. The potential of these technological tools is
+                    limited by a person's motivation, availability of time, and
+                    commitment. While the convenience and availability of mobile
+                    apps allow people to take control of their learning, explore
+                    new areas of interest, and effectively keep up with the
+                    constantly changing demands of their chosen career or job.
+                  </p>
+                  <p>
+                    As we move into the future, it’s clear that educational apps
+                    are revolutionising learning and shaping the future of
+                    education. With their ability to provide personalised
+                    learning experiences, deliver interactive and fun content,
+                    make learning accessible, fosters collaboration, and helps
+                    continuing education become a powerful tool in education.
+                    Although striking a balance between technology and human
+                    interaction is crucial, ensuring that applications
+                    strengthen and improve the role of instructors in leading
+                    and motivating students is equally vital. Utilising
+                    educational apps to spark an educational system as dynamic
+                    and refined as the needs of the new era, We can create a
+                    learning environment that is as comprehensive as the
+                    challenges and opportunities the 21st century hold.
+                  </p>
+                </div>
               </div>
-              <div class="post-meta">
-                <h1 class="article-title">Lorem ipsum dolor sit amet consec tetur adipisicing</h1>
-                <ul>
+              <div class="box-comments">
+                <div class="title-box-2">
+                  <h4 class="title-comments title-left">Comments (34)</h4>
+                </div>
+                <ul class="list-comments">
                   <li>
-                    <span class="bi bi-person"></span>
-                    <a href="#">Jason London</a>
+                    <div class="comment-avatar">
+                      <img src="assets/img/testimonial-2.jpg" alt="" />
+                    </div>
+                    <div class="comment-details">
+                      <h4 class="comment-author">Oliver Colmenares</h4>
+                      <span>18 Sep 2017</span>
+                      <p>
+                        Nice
+                      </p>
+                      <a href="3">Reply</a>
+                    </div>
                   </li>
                   <li>
-                    <span class="bi bi-tag"></span>
-                    <a href="#">Web Design</a>
+                    <div class="comment-avatar">
+                      <img src="assets/img/testimonial-4.jpg" alt="" />
+                    </div>
+                    <div class="comment-details">
+                      <h4 class="comment-author">Carmen Vegas</h4>
+                      <span>18 Sep 2017</span>
+                      <p>
+                        Nice article
+                      </p>
+                      <a href="3">Reply</a>
+                    </div>
+                  </li>
+                  <li class="comment-children">
+                    <div class="comment-avatar">
+                      <img src="assets/img/testimonial-2.jpg" alt="" />
+                    </div>
+                    <div class="comment-details">
+                      <h4 class="comment-author">Oliver Colmenares</h4>
+                      <span>18 Sep 2017</span>
+                      <p>
+                        very nice article
+                      </p>
+                      <a href="3">Reply</a>
+                    </div>
                   </li>
                   <li>
-                    <span class="bi bi-chat-left-text"></span>
-                    <a href="#">14</a>
+                    <div class="comment-avatar">
+                      <img src="assets/img/testimonial-2.jpg" alt="" />
+                    </div>
+                    <div class="comment-details">
+                      <h4 class="comment-author">Oliver Colmenares</h4>
+                      <span>18 Sep 2017</span>
+                      <p>
+                        Cool
+                      </p>
+                      <a href="3">Reply</a>
+                    </div>
                   </li>
                 </ul>
               </div>
-              <div class="article-content">
-                <p>
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                  porta. Quisque velit
-                  nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque
-                  nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                  cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                  Nulla quis lorem ut libero malesuada feugiat.
-                </p>
-                <p>
-                  Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                  aliquet elit, eget tincidunt
-                  nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-                </p>
-                <p>
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Praesent
-                  sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                  sem. Donec rutrum congue leo eget malesuada.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.
-                  Curabitur arcu erat,
-                  accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor
-                  volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium
-                  ut lacinia in, elementum id enim.
-                </p>
-                <blockquote class="blockquote">
-                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                </blockquote>
-                <p>
-                  Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                  aliquet elit, eget tincidunt
-                  nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-                </p>
-              </div>
-            </div>
-            <div class="box-comments">
-              <div class="title-box-2">
-                <h4 class="title-comments title-left">Comments (34)</h4>
-              </div>
-              <ul class="list-comments">
-                <li>
-                  <div class="comment-avatar">
-                    <img src="assets/img/testimonial-2.jpg" alt="">
-                  </div>
-                  <div class="comment-details">
-                    <h4 class="comment-author">Oliver Colmenares</h4>
-                    <span>18 Sep 2017</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                      ipsam temporibus maiores
-                      quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
-                    </p>
-                    <a href="3">Reply</a>
-                  </div>
-                </li>
-                <li>
-                  <div class="comment-avatar">
-                    <img src="assets/img/testimonial-4.jpg" alt="">
-                  </div>
-                  <div class="comment-details">
-                    <h4 class="comment-author">Carmen Vegas</h4>
-                    <span>18 Sep 2017</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                      ipsam temporibus maiores
-                      quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis,
-                      veritatis deserunt.
-                    </p>
-                    <a href="3">Reply</a>
-                  </div>
-                </li>
-                <li class="comment-children">
-                  <div class="comment-avatar">
-                    <img src="assets/img/testimonial-2.jpg" alt="">
-                  </div>
-                  <div class="comment-details">
-                    <h4 class="comment-author">Oliver Colmenares</h4>
-                    <span>18 Sep 2017</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                      ipsam temporibus maiores
-                      quae.
-                    </p>
-                    <a href="3">Reply</a>
-                  </div>
-                </li>
-                <li>
-                  <div class="comment-avatar">
-                    <img src="assets/img/testimonial-2.jpg" alt="">
-                  </div>
-                  <div class="comment-details">
-                    <h4 class="comment-author">Oliver Colmenares</h4>
-                    <span>18 Sep 2017</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                      ipsam temporibus maiores
-                      quae natus libero optio.
-                    </p>
-                    <a href="3">Reply</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="form-comments">
-              <div class="title-box-2">
-                <h3 class="title-left">
-                  Leave a Reply
-                </h3>
-              </div>
-              <form class="form-mf">
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input type="text" class="form-control input-mf" id="inputName" placeholder="Name *" required>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                      <input type="email" class="form-control input-mf" id="inputEmail1" placeholder="Email *" required>
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <input type="url" class="form-control input-mf" id="inputUrl" placeholder="Website">
-                    </div>
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <div class="form-group">
-                      <textarea id="textMessage" class="form-control input-mf" placeholder="Comment *" name="message" cols="45" rows="8" required></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                  </div>
+              <div class="form-comments">
+                <div class="title-box-2">
+                  <h3 class="title-left">Leave a Reply</h3>
                 </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="widget-sidebar sidebar-search">
-              <h5 class="sidebar-title">Search</h5>
-              <div class="sidebar-content">
-                <form>
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-secondary btn-search" type="button">
-                        <span class="bi bi-search"></span>
+                <form class="form-mf">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control input-mf"
+                          id="inputName"
+                          placeholder="Name *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control input-mf"
+                          id="inputEmail1"
+                          placeholder="Email *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="form-group">
+                        <input
+                          type="url"
+                          class="form-control input-mf"
+                          id="inputUrl"
+                          placeholder="Website"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="form-group">
+                        <textarea
+                          id="textMessage"
+                          class="form-control input-mf"
+                          placeholder="Comment *"
+                          name="message"
+                          cols="45"
+                          rows="8"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button
+                        type="submit"
+                        class="button button-a button-big button-rouded"
+                      >
+                        Send Message
                       </button>
-                    </span>
+                    </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Recent Post</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">Atque placeat maiores.</a>
-                  </li>
-                  <li>
-                    <a href="#">Lorem ipsum dolor sit amet consectetur</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
+            <div class="col-md-4">
+              <div class="widget-sidebar sidebar-search">
+                <h5 class="sidebar-title">Search</h5>
+                <div class="sidebar-content">
+                  <form>
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search for..."
+                        aria-label="Search for..."
+                      />
+                      <span class="input-group-btn">
+                        <button
+                          class="btn btn-secondary btn-search"
+                          type="button"
+                        >
+                          <span class="bi bi-search"></span>
+                        </button>
+                      </span>
+                    </div>
+                  </form>
+                </div>
               </div>
-            </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Archives</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">September, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">April, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
+              <div class="widget-sidebar">
+                <h5 class="sidebar-title">Recent Post</h5>
+                <div class="sidebar-content">
+                  <ul class="list-sidebar">
+                    <li>
+                      <a href="#">Atque placeat maiores.</a>
+                    </li>
+                    <li>
+                      <a href="#">Lorem ipsum dolor sit amet consectetur</a>
+                    </li>
+                    <li>
+                      <a href="#">Nam quo autem exercitationem.</a>
+                    </li>
+                    <li>
+                      <a href="#">Atque placeat maiores nam quo autem</a>
+                    </li>
+                    <li>
+                      <a href="#">Nam quo autem exercitationem.</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div class="widget-sidebar widget-tags">
-              <h5 class="sidebar-title">Tags</h5>
-              <div class="sidebar-content">
-                <ul>
-                  <li>
-                    <a href="#">Web.</a>
-                  </li>
-                  <li>
-                    <a href="#">Design.</a>
-                  </li>
-                  <li>
-                    <a href="#">Travel.</a>
-                  </li>
-                  <li>
-                    <a href="#">Photoshop</a>
-                  </li>
-                  <li>
-                    <a href="#">Corel Draw</a>
-                  </li>
-                  <li>
-                    <a href="#">JavaScript</a>
-                  </li>
-                </ul>
+              <div class="widget-sidebar">
+                <h5 class="sidebar-title">Archives</h5>
+                <div class="sidebar-content">
+                  <ul class="list-sidebar">
+                    <li>
+                      <a href="#">September, 2017.</a>
+                    </li>
+                    <li>
+                      <a href="#">April, 2017.</a>
+                    </li>
+                    <li>
+                      <a href="#">Nam quo autem exercitationem.</a>
+                    </li>
+                    <li>
+                      <a href="#">Atque placeat maiores nam quo autem</a>
+                    </li>
+                    <li>
+                      <a href="#">Nam quo autem exercitationem.</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="widget-sidebar widget-tags">
+                <h5 class="sidebar-title">Tags</h5>
+                <div class="sidebar-content">
+                  <ul>
+                    <li>
+                      <a href="#">Web.</a>
+                    </li>
+                    <li>
+                      <a href="#">Design.</a>
+                    </li>
+                    <li>
+                      <a href="#">Travel.</a>
+                    </li>
+                    <li>
+                      <a href="#">Photoshop</a>
+                    </li>
+                    <li>
+                      <a href="#">Corel Draw</a>
+                    </li>
+                    <li>
+                      <a href="#">JavaScript</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- End Blog Single Section -->
+      </section>
+      <!-- End Blog Single Section -->
+    </main>
+    <!-- End #main -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">
+                &copy; Copyright <strong>Samware</strong>. All Rights Reserved
+              </p>
+              <div class="credits">
+                <!--
               All the links in the footer should remain intact.
               You can delete the links only if you purchased the pro version.
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by
+                <a href="https://bootstrapmade.com/">Samuel Dushime</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </footer>
+    <!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
