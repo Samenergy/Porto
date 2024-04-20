@@ -475,6 +475,15 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+.carousel-item img{
+  max-width: 1000px;
+  height: 800px;
+  margin: auto;
+}
+#carouselExampleIndicators{
+  background-color: #0078ff;
+  padding: 100px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
