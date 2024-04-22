@@ -998,6 +998,9 @@ a:hover {
 .w-title {
   font-size: 1.2rem;
 }
+.lang{
+  display: flex;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
